@@ -1,28 +1,27 @@
-.App {
-  text-align: center;
+body {
+    background-color: aquamarine;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.container {
+    width: 90%;
+    height: 500px;
+    margin: 5%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.slick-active {
+    height: 300px;
+    background-color: brown;
+    border: 4px solid aquamarine;
+    box-sizing: border-box;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
+/* 
 
-.App-intro {
-  font-size: large;
-}
+<div><img src={require('./images/001.PNG')} alt=" Joshua Earle on Unsplash"/></div>
+<div><img src={require('./images/002.PNG')} alt=" Alisa Anton on Unsplash"/></div>
+<div><img src={require('./images/003.PNG')} alt=" Igor Ovsyannykov on Unsplash"/></div>
+<div><img src={require('./images/004.PNG')} alt=" Pierre Châtel-Innocenti on Unsplash"/></div>
+<div><img src={require('./images/005.PNG')} alt=" Richard Nolan on Unsplash"/></div>
+<div><img src={require('./images/006.PNG')} alt=" Cristina Gottardi on Unsplash"/></div>
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+*/
